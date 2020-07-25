@@ -1,1 +1,1 @@
-# Horus Avaliation®
+# Horus Challenge
