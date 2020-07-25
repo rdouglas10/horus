@@ -11,8 +11,8 @@ class ContactModel(db.Model):
   __tablename__ = 'contacts'
 
   id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-  name = db.Column(db.String(128), nullable=False)
-  phone = db.Column(db.String(128), nullable=False)
+  name = db.Column(db.String(128))
+  phone = db.Column(db.String(128))
   created_at = db.Column(db.DateTime)
   modified_at = db.Column(db.DateTime)
   deleted = db.Column(db.Boolean(), default=False)
@@ -57,7 +57,7 @@ class ContactModel(db.Model):
   def get_one_contact_number(phone_number):
     exists = db.session.query(db.exists().where(ContactModel.phone == phone_number).where(ContactModel.deleted == False)).scalar()
     return exists
-
+    
   
   def __repr(self):
     return '<id {}>'.format(self.id)
@@ -68,8 +68,8 @@ class ContactSchema(Schema):
   Contact Schema
   """
   id = fields.Int(dump_only=True)
-  name = fields.Str(required=True)
-  phone = fields.Str(required=True)
+  name = fields.Str(dump_only=True)
+  phone = fields.Str(dump_only=True)
   created_at = fields.DateTime(dump_only=True)
   modified_at = fields.DateTime(dump_only=True)
   deleted = fields.Boolean(dump_only=True)
