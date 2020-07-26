@@ -43,7 +43,7 @@ $ pip install pipenv
 
  - Clone the project:
 ```sh
-$ git clone git@github.com:rdouglas10/horus.git 
+$ git clone https://github.com/rdouglas10/horus.git 
 ```
   
  - Access the project folder (terminal)
