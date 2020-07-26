@@ -84,6 +84,13 @@ The API has the following endpoints:
 - `[DELETE] /api/v1/contacts/<int:contact_id>`: Endpoint to delete the contact of phonebook informed by parameter.
 - `[PUT] /api/v1/contacts/<int:contact_id>`: Endpoint to update the contact selected of phonebook.
 
+## :key: Input Parameters
+
+| Field Name | Type
+|-----|-----
+| name | string 
+| phone | string 
+
 ## :battery: Future improvements and features
 
  - [ ] :cold_sweat: Implement mask in the phone field.
