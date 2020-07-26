@@ -46,11 +46,6 @@ $ pip install pipenv
 $ git clone https://github.com/rdouglas10/horus.git 
 ```
   
- - Access the project folder (terminal)
- ```sh
-$ cd horus
-```
-
 - Access the project folder (terminal)
  ```sh
 $ cd horus
