@@ -93,3 +93,7 @@ The API has the following endpoints:
 
  - [ ] :cold_sweat: Implement mask in the phone field.
  - [ ] Create tests cases.
+ 
+ ## :foggy: Presentation layer
+ 
+ > [Frontend repository](https://github.com/rdouglas10/horus-frontend)
