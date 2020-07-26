@@ -69,7 +69,14 @@ $ export FLASK_ENV=development
 $ export DATABASE_URL='postgresql+psycopg2://<user>:<password>@<host>/<db>'
 ``` 
 
-- To execute access the project root:
+- To execute the database settings access the project root and run:
+```sh
+$ python manage.py db init
+$ python manage.py db migrate
+$ python manage.py db upgrade
+```
+
+- To execute access the project root run:
 ```sh
 $ python run.py
 ```
