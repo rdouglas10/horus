@@ -1,8 +1,8 @@
-# Horus Challenge
+# Horus Challenge - Backend
 
 ## :page_with_curl: Summary
 
-This project was developed as a prerequisite in the selection process for a backend developer vacancy. The purpose of the project is to provide an API to manage a contact list.
+This project was developed as a prerequisite in the selection process for a fullstack developer vacancy. The purpose of the project is to provide an API to manage a contact list.
 
 ## :necktie: The Business Roles
 
