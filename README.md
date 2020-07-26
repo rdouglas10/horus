@@ -18,7 +18,7 @@ This project was developed as a prerequisite in the selection process for a back
 
 ## :arrow_forward: Environment
 
-You can run the application directly on your computer. Just have python 3+ installed and postgresql 9.6.
+You can run the application directly on your computer. Just have python 3+ installed, postgresql 9.6 and Pipenv.
 
 ## :fire: Getting Started
 
